@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>One Page Landing Page</title>
+        
+        <script src="js/java.js" crossorigin="anonymous"></script>
+
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#page-top" style="font-family: 'Times New Roman', Times, serif;">Miss Dior</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html" style="font-family: 'Times New Roman', Times, serif;">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html" style="font-family: 'Times New Roman', Times, serif;">About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="product.html" style="font-family: 'Times New Roman', Times, serif;">Perfumes</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="masthead">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0" style="font-family: 'Times New Roman', Times, serif;">Miss Dior</h1>
+                    <h2 class="masthead-subheading mb-0" style="font-family: 'Times New Roman', Times, serif;">"Without perfume the skin is mute"</h2>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
+                </div>
+            </div>
+            
+        </header>
+
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/01.jpg" alt="..." style="width: 100%;max-width: 400px;" style="height:50%;max-height:400px;"></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Luxury Fragrance~</h2>
+                            <p>Bright and colorful, its fragrance is a floral delight you will return to over and over. The top notes of tangy red berry are joyful and striking. At the heart of this perfume, a sublime duet of Grasse and Damascus rose embraces sensuous peony.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">Luxurious Craftsmanship</h2>
+                            <p> Each of Dior's collections evoke sensuality through their intricate embroidery and signature motifs. The construction of the house's garments consists of a concealed craft that only a skilled couture atelier at their peak can achieve.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Origin and Founder</h2>
+                            <p>Origin:French. Meaning:golden. Dior is a gender-neutral name of French origin with rich ties to the fashion elite. Related to the surname D'Or, meaning "golden," its most famous wearer is, of course, Christian Dior.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button onclick="topFunction()" title="Go to top" style="float: right;">Top</button>
+
+        <script>
+            
+            let mybutton = document.getElementById("myBtn");
+            
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+
+
+
+        <footer class="py-5 bg-black">
+            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Miss Dior 2023</p></div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        
+    </body>
+</html>
